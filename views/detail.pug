@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+	html(lang="en")
+		head
+			meta(charset="UTF-8")
+			title Document
+			link(rel="stylesheet", href="/css/style.css")
+		body
+			div
+				h1= data.titles.title["0"]
+				p= data.description['physical-description']
+				a(href= data['detail-page'])= 'Reserveer'
